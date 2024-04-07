@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+main{
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    height: 15vh;
+    background-color: #D9D9D9;
+}
+footer {
+    height: 20vh;
+    background-color: #D9D9D9;
+}
+
+
+.container{
+    height: 100%;
+    width: 33.4vw;
+}
+.box_1, .box_3{
+    background: #78786F;
+}
+.box_2{
+    background: #61615C;
+}

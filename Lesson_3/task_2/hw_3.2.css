@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 250%;
+
+}
+
+a{
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_1{
+    background-color: rgba(204, 124, 105, 1);
+}
+.box_2{
+    background-color: rgba(151, 237, 229, 1);
+
+}
+.box_3 {
+    background-color: rgba(93, 206, 128, 1);
+}
+
+h1{
+    text-align: center;
+    padding: 6px;
+    font-size: 250%;
+}
+
+p{
+    width: 90%;
+    text-align: center;
+}
