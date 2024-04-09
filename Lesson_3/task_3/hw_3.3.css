@@ -10,7 +10,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    : center;
     align-items: center;
 }
 .box_1{
