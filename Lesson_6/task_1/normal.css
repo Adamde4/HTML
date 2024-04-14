@@ -1,0 +1,55 @@
+body {
+    color: white;
+    font-size: 40px;
+}
+
+nav > div, .box_1, .box_2 > article, footer {
+    background-color: rgb(59, 149, 191);
+    border: 1px solid black;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+}
+
+nav > .link {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > .link > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box_1 {
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box_1 > p, .box_2 > article > p {
+    margin: 15px;
+}
+
+.box_2 {
+    height: 40vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box_2 > article {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

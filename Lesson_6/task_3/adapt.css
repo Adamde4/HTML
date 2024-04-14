@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    main {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .box_1{
+        width: 100%;
+    }
+    .box_2{
+        width: 100%;
+    }
+}

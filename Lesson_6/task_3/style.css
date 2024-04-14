@@ -1,0 +1,56 @@
+
+header, section, div {
+    background-color: rgba(216, 216, 216, 1);
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+}
+
+.box_1 {
+    width: 70vw;
+    display: grid;
+    grid-template-areas:
+    "container-item-first container-item-first container-item-first"
+    "container-item-second container-item-third container-item-forth";
+}
+
+.box_item_1 {
+    grid-area: container-item-first;
+}
+
+.box_item_2 {
+    grid-area: container-item-second;
+}
+
+.box_item_3 {
+    grid-area: container-item-third;
+}
+
+.box_item_4 {
+    grid-area: container-item-forth;
+}
+
+.box_1 > .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box_2 {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

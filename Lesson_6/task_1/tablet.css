@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+    .box_2 {
+        display: flex;
+    }
+    .box_2 > article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
